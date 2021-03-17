@@ -1,0 +1,51 @@
+body {
+    background-color:white;
+}
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas: "top"
+                        "middle"
+                        "bottom";
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    justify-items: center;
+}
+.top {
+    grid-area: top;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: large;
+    color: whitesmoke;
+    border-radius: 5px 5px 0px 0px;
+    height: 5fr;
+    width: 95%;
+    margin-top: 5px;
+}
+.middle {
+    grid-area: middle;
+    background-color:whitesmoke;
+    width: 95%;
+    height:3fr;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom {
+    grid-area: bottom;
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+    width: 95%;
+    height: 1.5fr;
+}
+
