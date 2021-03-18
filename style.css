@@ -15,7 +15,7 @@ main {
 }
 .top {
     grid-area: top;
-    background-color: red;
+    background-color:palevioletred;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: large;
@@ -41,7 +41,7 @@ main {
 
 .bottom {
     grid-area: bottom;
-    background-color: red;
+    background-color:palevioletred;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-bottom: 5px;
